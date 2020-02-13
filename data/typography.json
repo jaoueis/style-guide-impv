@@ -1,0 +1,17 @@
+{
+    "title": "Typography",
+    "fonts": [
+        {
+            "name": "Open Sans",
+            "type": "Sans-serif",
+            "source": "Google Fonts",
+            "link": "https://fonts.google.com/specimen/Open+Sans"
+        },
+        {
+            "name": "Playfair Display",
+            "type": "Serif",
+            "source": "Google Fonts",
+            "link": "https://fonts.google.com/specimen/Playfair+Display"
+        }
+    ]
+}

@@ -1,0 +1,188 @@
+html,
+body {
+    color: $color-dark;
+    font-family: $font-primary;
+    font-size: $font-size-base;
+    font-weight: 400;
+    line-height: $line-height-base;
+}
+
+*::selection {
+    color: $color-primary;
+    background-color: $color-dark;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+    display: block;
+    font-weight: 400;
+}
+
+h1,
+.h1 {
+    color: $color-secondary;
+    font-family: $font-secondary;
+    font-size: $font-size-h1 * .75;
+    text-transform: uppercase;
+
+    @include sm {
+        font-size: $font-size-h1;
+    }
+}
+
+h2,
+.h2 {
+    font-size: $font-size-h2 * .75;
+
+    @include sm {
+        font-size: $font-size-h2;
+    }
+}
+
+h3,
+.h3 {
+    font-size: $font-size-h3 * .75;
+
+    @include sm {
+        font-size: $font-size-h3;
+    }
+}
+
+h4,
+.h4 {
+    font-size: $font-size-h4;
+}
+
+h5,
+.h5 {
+    font-size: $font-size-h5;
+    text-transform: uppercase;
+}
+
+h6,
+.h6 {
+    font-size: $font-size-h6;
+    text-transform: uppercase;
+}
+
+.lead,
+.lead p {
+    font-size: 1.25rem;
+}
+
+ul,
+ol {
+    padding-left: 0;
+    list-style-type: none;
+
+    li {
+        position: relative;
+        margin: 1rem 0;
+        padding-left: 1.5rem;
+
+        &:before {
+            position: absolute;
+            left: 0;
+            color: $color-secondary;
+            font-weight: 600;
+            line-height: $line-height-base;
+        }
+
+        > ol {
+            counter-reset: nested;
+
+            > li {
+                &::before {
+                    font-size: 1rem;
+                    counter-increment: nested;
+                    content: counter(nested, lower-alpha) ".";
+                }
+            }
+        }
+    }
+}
+
+ul {
+    li {
+        &:before {
+            font-size: .75rem;
+            content: "\25A0";
+        }
+    }
+}
+
+ol {
+    counter-reset: li;
+
+    > li {
+        &:before {
+            font-size: 1rem;
+            counter-increment: li;
+            content: counter(li) '.';
+        }
+    }
+}
+
+blockquote,
+.blockquote {
+    position: relative;
+    margin: 0;
+    padding: 1rem 1rem 1rem 2.5rem;
+    display: block;
+    font-family: $font-secondary;
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: $line-height-base * 1.125;
+
+    &:before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        color: $color-secondary;
+        font-size: 3rem;
+        line-height: $line-height-base;
+        content: "\201C";
+    }
+}
+
+cite {
+    padding-left: 2.5rem;
+    display: block;
+    color: $color-secondary;
+
+    &:before {
+        font-size: .875rem;
+        font-style: normal;
+        font-weight: 400;
+        content: "\2014\00A0";
+    }
+}
+
+q,
+.q {
+    font-style: italic;
+}
+
+a {
+    color: $color-secondary;
+    font-weight: 600;
+    word-break: break-word;
+    @include transition();
+
+    &:hover,
+    &:focus {
+        color: $color-general;
+    }
+}

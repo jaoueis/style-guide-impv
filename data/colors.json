@@ -1,0 +1,37 @@
+{
+    "title": "Colours",
+    "colors": [
+        {
+            "name": "Primary",
+            "hex": "#ddc086"
+        },
+        {
+            "name": "Secondary",
+            "hex": "#b78b34"
+        },
+        {
+            "name": "Dark",
+            "hex": "#333333"
+        },
+        {
+            "name": "Light",
+            "hex": "#f4f4f4"
+        },
+        {
+            "name": "General",
+            "hex": "#007bff"
+        },
+        {
+            "name": "Success",
+            "hex": "#28a745"
+        },
+        {
+            "name": "Danger",
+            "hex": "#c82333"
+        },
+        {
+            "name": "Warning",
+            "hex": "#ffc107"
+        }
+    ]
+}

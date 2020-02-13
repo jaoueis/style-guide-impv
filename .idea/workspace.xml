@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="57afb26a-1ea0-4eb8-ade2-bde76e9c89ae" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="ProjectId" id="1X8kGWvimaeEi6M5fGhCllo7dR2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/videos" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/videos" />
+      <recent name="$PROJECT_DIR$/images" />
+      <recent name="$PROJECT_DIR$/includes/components" />
+      <recent name="$PROJECT_DIR$/scss/__sg" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="57afb26a-1ea0-4eb8-ade2-bde76e9c89ae" name="Default Changelist" comment="" />
+      <created>1580435013313</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580435013313</updated>
+      <workItem from="1580435016292" duration="720000" />
+      <workItem from="1580435772001" duration="6556000" />
+      <workItem from="1580564575538" duration="5338000" />
+      <workItem from="1580677928278" duration="15541000" />
+      <workItem from="1580869594828" duration="515000" />
+      <workItem from="1581561688098" duration="3019000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="461" y="190" key="SettingsEditor" timestamp="1580564585077">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="461" y="190" key="SettingsEditor/0.23.1920.1057/1920.23.1920.1057/3840.23.1680.1027@0.23.1920.1057" timestamp="1580564585077" />
+    <state x="2381" y="190" key="SettingsEditor/0.23.1920.1057/1920.23.1920.1057/3840.23.1680.1027@1920.23.1920.1057" timestamp="1580435923238" />
+    <state x="2534" y="308" width="692" height="486" key="find.popup" timestamp="1581561755106">
+      <screen x="1920" y="23" width="1920" height="1057" />
+    </state>
+    <state x="2534" y="308" width="692" height="486" key="find.popup/0.23.1920.1057/1920.23.1920.1057/3840.23.1680.1027@1920.23.1920.1057" timestamp="1581561755106" />
+    <state x="2545" y="258" width="670" height="676" key="search.everywhere.popup" timestamp="1581561764357">
+      <screen x="1920" y="23" width="1920" height="1057" />
+    </state>
+    <state x="2545" y="258" width="670" height="676" key="search.everywhere.popup/0.23.1920.1057/1920.23.1920.1057/3840.23.1680.1027@1920.23.1920.1057" timestamp="1581561764357" />
+  </component>
+</project>

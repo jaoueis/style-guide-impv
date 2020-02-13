@@ -1,0 +1,22 @@
+@mixin sg_box_helper {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border: 1px solid #cccccc;
+}
+
+@mixin transition($property: all, $duration: .3s, $timing: ease-in-out) {
+    transition: $property $duration $timing;
+}
+
+@mixin btn($btn-color, $btn-bg, $btn-border, $btn-hover-color, $btn-hover-bg, $btn-hover-border) {
+    color: $btn-color;
+    background-color: $btn-bg;
+    border: 1px solid $btn-border;
+
+    &:hover,
+    &:focus {
+        color: $btn-hover-color;
+        background-color: $btn-hover-bg;
+        border: 1px solid $btn-hover-border;
+    }
+}

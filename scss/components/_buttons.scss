@@ -1,0 +1,74 @@
+.btn {
+    margin: 1rem 0;
+    padding: .75rem 1.25rem;
+    display: block;
+    font-family: $font-primary;
+    font-size: 1rem;
+    line-height: 1;
+    text-transform: uppercase;
+    @include btn($color-dark, $color-primary, $color-primary, $color-light, $color-secondary, $color-secondary);
+    @include transition();
+    cursor: pointer;
+
+    &.btn-primary {
+        @include btn($color-dark, $color-primary, $color-primary, $color-light, $color-secondary, $color-secondary);
+    }
+
+    &.btn-secondary {
+        @include btn($color-light, $color-secondary, $color-secondary, $color-dark, $color-primary, $color-primary);
+    }
+
+    &.btn-dark {
+        @include btn($color-light, $color-dark, $color-dark, $color-dark, $color-light, $color-dark);
+    }
+
+    &.btn-light {
+        @include btn($color-dark, $color-light, $color-dark, $color-light, $color-dark, $color-dark);
+    }
+
+    &.btn-inline {
+        position: relative;
+        padding-left: 0;
+        @include btn($color-secondary, transparent, transparent, $color-dark, transparent, transparent);
+        text-transform: none;
+
+        &:before,
+        &:after {
+            position: absolute;
+            display: block;
+            right: 0;
+            width: 7px;
+            height: 1px;
+            background-color: $color-secondary;
+            content: "";
+            @include transition();
+        }
+
+        &:hover,
+        &:focus {
+            &:before,
+            &:after {
+                right: -14px;
+                background-color: $color-dark;
+            }
+        }
+
+        &:before {
+            top: calc(50% - 2.5px);
+            transform: translateY(-50%) rotate(45deg);
+        }
+
+        &:after {
+            top: calc(50% + 2.5px);
+            transform: translateY(-50%) rotate(-45deg);
+        }
+    }
+
+    &.btn-sm {
+        font-size: .75rem;
+    }
+
+    &.btn-lg {
+        font-size: 1.25rem;
+    }
+}
