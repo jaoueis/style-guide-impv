@@ -53,11 +53,7 @@ h2,
 
 h3,
 .h3 {
-    font-size: $font-size-h3 * .75;
-
-    @include sm {
-        font-size: $font-size-h3;
-    }
+    font-size: $font-size-h3;
 }
 
 h4,
